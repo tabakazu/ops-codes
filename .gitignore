@@ -1,0 +1,37 @@
+# chef
+/chef/.chef/knife.rb
+/chef/clients/
+/chef/nodes/
+/chef/Gemfile.lock
+
+vendor/
+pkg/
+.env
+.envrc
+
+.bundle/
+
+# terraform
+.terraform
+*.tfvars
+*.tfstate
+*.tfstate.*
+
+*.pb.go
+
+revel-app-demo/test-results/
+revel-app-demo/tmp/
+revel-app-demo/routes/
+
+**/gomock-demo/mocks/mock_*
+
+**/typescript/**/*.js
+**/typescript/**/*tsconfig.json
+
+**/rust/*
+!**/rust/**/*.rs
+!**/rust/**/*.md
+
+# cpp
+*.out
+*.exe
